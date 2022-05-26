@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@700&family=Sora:wght@200&display=swap" rel="stylesheet');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to right, #30443f, #4a655d, #30443f);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+nav.sticky{position:sticky;top:0;}
+
+nav a {
+    color:white;
+    text-decoration:none;
+}
+
+nav {
+    background-image: linear-gradient(#4a655d, #374d48);
+    display:flex;
+    justify-content:space-evenly;
+    width: 100%;
+    border-bottom: 1vh solid #30443f;
+}
+
+nav div {
+    padding:8px;
+}
+
+header {
+    background-image:url(img/oldpaper.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family: 'Encode Sans', sans-serif;
+    text-align:center;
+    height:30vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 1vh solid #30443f;
+}
+
+header img {
+    height: 200px;
+}
+
+a:hover {
+    color:black;
+    font-weight:bold;
+}
+
+h1 {
+    top: 40%;
+    font-size: 4em;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000000;
+}
+
+h2 {
+    margin-top: 4px;
+    font-family: 'Sora', cursive;
+    font-weight:normal;
+}
+
+h3 {
+    margin-top: 4px;
+    font-family: 'Sora', cursive;
+    font-weight:normal;
+}
+
+.img-ingenuity  img{
+    width: 100%;
+    height:300px;
+
+}
+
+.img-ingenuity figure {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    width:65%;
+    display:block;
+    justify-content:space-between;
+}
+
+.imagegallery {
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.imagegallery figure {
+    display:block;
+    margin:0;
+    width:50%;
+}
+.imagegallery img {
+    width:100%;
+    height:200px;
+
+}
+
+.img_boer1 img{
+    width:100%;
+    height:80%;
+
+
+}
+
+.img_boer2 img{
+    width:80%;
+    height:80%;
+
+}
+
+.img_ricky img{
+    width:90%;
+    height:80%;
+
+}
+
+.img_jager1 img{
+    width:80%;
+    height:80%;
+
+}
+
+
+.img-transistor img {
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+
+}
+
+.center img{
+    width: 100%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img-msdos figure {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    width:65%;
+    display:block;
+    justify-content:space-between;
+}
+
+.img-windows figure {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    width:50%;
+    display:block;
+    justify-content:space-between;
+}
+
+
+.img-robot figure {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    width:30%;
+    display:block;
+    justify-content:space-between;
+}
+
+
+section {
+
+    padding: 30px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    max-width:70vw;
+
+    text-align: justify;
+}
+
+footer {
+    background-color: #374d48;
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    border-top: 1vh solid #30443f;
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    color: rgb(155, 155, 155);
+}
